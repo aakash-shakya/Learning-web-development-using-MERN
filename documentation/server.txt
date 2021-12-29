@@ -1,0 +1,24 @@
+first of all installed nodejs.
+
+then " npm init -y "  --> creates package.json file
+
+npm install body-parser cors express mongoose nodemon
+
+mongodb used as database. Used cloud based database and its a cluster.
+
+connected the database using a CONNECTION_URL in main.json
+
+
+MVC pattern is made.
+models that uses Schema then convert those schema to model.
+
+views are written in the handlers.
+    - used async/ await
+    - used try{} and catch(error){}
+
+urls are written in routes folder respective to there apps.
+    - routes take the two parameter for http methods ('/', handler)
+
+
+
+
