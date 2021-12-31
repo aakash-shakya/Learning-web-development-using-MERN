@@ -1,0 +1,37 @@
+used react for client side
+
+npx create-react-app ./
+npm install axios moment react-file-base64 redux redux-thunk @material-ui/core
+
+deleted all files pre-arrived in " src " folder
+
+created app.js, index.js
+
+created components folder for all components
+
+index.js
+    - it renders the < App/> component.
+    - and places <App/> component in DOM
+
+App.js:
+    - it renders all other components needed for the client side.
+
+
+components
+    - Form
+    - Posts
+        - Post
+
+
+Form component is used for the Form part of the site.
+
+Post component is used for the single post entity
+
+Posts component is on top hierachy for the post section as many <Post/> component is include on it.
+
+
+
+api folder is created.
+
+api
+    - index.js  --> consists fetchPosts() that uses axios.get(url) to fetch from the api endpoints.
