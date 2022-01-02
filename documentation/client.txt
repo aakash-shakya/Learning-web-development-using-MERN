@@ -35,3 +35,6 @@ api folder is created.
 
 api
     - index.js  --> consists fetchPosts() that uses axios.get(url) to fetch from the api endpoints.
+                --> consist createPost() that uses axios.post(url, newPost) to post content in the server backend database.
+
+added "proxy" in package.json file.
